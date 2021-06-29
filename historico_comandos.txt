@@ -1,0 +1,222 @@
+    1  java
+    2  java --version
+    3  sudo apt install openjdk-8
+    4  sudo apt install openjdk-8-jdk
+    5  ping 
+    6  sudo apt-get update
+    7  sudo gedit /etc/resolv.conf 
+    8  sudo apt install openjdk-8-jdk
+    9  npm
+   10  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh
+   11  sudo apt install curl
+   12  top
+   13  sudo apt-get curl
+   14  sudo apt-get install curl
+   15  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh
+   16  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+   17  source ~/.bashrc
+   18  nvm list-remote
+   19  nvm install v14.17.0
+   20  nvm ls-remote
+   21  export NVM_NODEJS_ORG_MIRROR=https://nodejs.org/dist
+   22  nvm ls-remote
+   23  sudo apt install nodejs
+   24  sudo apt install npm
+   25  npm install -g @angular/cli
+   26  cp ~/Downloads/*.pem /usr/local/share/ca-certificates/
+   27  cp ~/Downloads/trt3-jus-br.pem /usr/local/share/ca-certificates/trt3.crt
+   28  sudo cp ~/Downloads/trt3-jus-br.pem /usr/local/share/ca-certificates/trt3.crt
+   29  sudo update-ca-certificates 
+   30  npm install -g @angular/cli
+   31  more /home/osboxes/.npm/_logs/2021-06-16T17_43_43_155Z-debug.log 
+   32  sudo cp ~/Downloads/ssl891737-cloudflaressl-com.pem /usr/local/share/ca-certificates/registry_npm.crt
+   33  sudo update-ca-certificates 
+   34  npm install -g @angular/cli
+   35  sudo npm install -g @angular/cli
+   36  node -v
+   37  npm -v
+   38  sudo cp ~/Downloads/www-mozilla-org.pem /usr/local/share/ca-certificates/mozzila.crt
+   39  sudo update-ca-certificates 
+   40  ng
+   41  ng version
+   42  mvn
+   43  sudo apt install maven
+   44  cd ~/Downloads/
+   45  ls
+   46  java -jar lombok.jar 
+   47  history
+   48  cp Downloads/github-com.pem /usr/share/ca-certificates/github.crt
+   49  sudo cp Downloads/github-com.pem /usr/share/ca-certificates/github.crt
+   50  mv /usr/share/ca-certificates/github.crt /usr/local/share/ca-certificates/
+   51  sudo mv /usr/share/ca-certificates/github.crt /usr/local/share/ca-certificates/
+   52  update-ca-certificates 
+   53  sudo update-ca-certificates 
+   54  cd /
+   55  ls
+   56  cd /mnt/
+   57  ls
+   58  cd ..
+   59  cd ' 
+   60  cd //
+   61  d 
+   62  cd /
+   63  ls
+   64  locate D_DRIVE
+   65  cd ~/Downloads/
+   66  ls
+   67  sudo mv Proxy.cer /usr/local/share/ca-certificates/
+   68  sudo update-ca-certificates 
+   69  mv /usr/local/share/ca-certificates/Proxy.cer 
+   70  mv /usr/local/share/ca-certificates/Proxy.cer /usr/local/share/ca-certificates/Proxy.crt
+   71  sudo mv /usr/local/share/ca-certificates/Proxy.cer /usr/local/share/ca-certificates/Proxy.crt
+   72  sudo update-ca-certificates 
+   73  cd 
+   74  mvn
+   75  cd supermarket-main/supermarkt-api/
+   76  clear
+   77  ls
+   78  mvn compile 
+   79  mvn clear package
+   80  mvn clean package
+   81  cd ..
+   82  ls
+   83  cd spring-tool-suite-4-4.10.0.RELEASE-e4.19.0-linux.gtk.x86_64/sts-4.10.0.RELEASE/
+   84  ls
+   85  top
+   86  which java
+   87  cd /usr/bin/java
+   88  ls
+   89  cd /usr/bin/
+   90  ls -la java
+   91  cd /etc/alternatives/java
+   92  cd /etc/alternatives
+   93  ls
+   94  ls -la java
+   95  DescriptionResourceLocationPathType
+   96  Non-resolvable parent POM for br.com.supermarkt:supermarkt:0.0.1-SNAPSHOT: Failure to transfer org.springframework.boot:spring-boot-starter-parent:pom:2.1.9.RELEASE from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact org.springframework.boot:spring-boot-starter-parent:pom:2.1.9.RELEASE from/to central (https://repo.maven.apache.org/maven2): PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested targetpom.xmlline 5/supermarktLanguage Servers
+   97  java -version
+   98  cd supermarket-main/
+   99  ls
+  100  cd supermarkt-api/
+  101  ls
+  102  mvn package
+  103  ng --version
+  104  npm uninstall -g @angular/cli
+  105  sudo npm uninstall -g @angular/cli
+  106  npm cache clean
+  107  sudo npm cache clean
+  108  sudo npm ninstall -g @angular/cli@11
+  109  sudo npm install -g @angular/cli@11
+  110  ls
+  111  cd supermarket-main/
+  112  ls
+  113  ng new bla
+  114  ls
+  115  sudo apt install code
+  116  sudo snap install –classic code
+  117  sudo snap install code
+  118  sudo snap install –classic code
+  119  sudo apt update
+  120  cd supermarket-main/supermarkt-ui/
+  121  ls
+  122  ng new teste
+  123  cd ..
+  124  ng new teste
+  125  cd supermarket-main/supermarkt-api/
+  126  mvn clean package
+  127  cd 
+  128  $ sudo apt update
+  129  $ sudo apt upgrade
+  130  sudo apt install docker.io
+  131  sudo systemctl enable --now docker
+  132  sudo usermod -aG docker osboxes
+  133  sudo usermod -aG docker osboxes.org
+  134  sudo usermod -aG docker osboxes
+  135  docker --version
+  136  docker run hello-world
+  137  sudo docker run hello-world
+  138  cd
+  139  ls
+  140  cd supermarket-main/
+  141  ls
+  142  cd supermarkt-api/
+  143  mvn compile
+  144  sudo apt install software-properties-common apt-transport-https wget
+  145  wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add –
+  146  wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add 
+  147  sudo add-apt-repository “deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main”
+  148  sudo add-apt-repository “deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main' 
+  149  sudo add-apt-repository 'deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main' 
+  150  sudo apt install code
+  151  sudo apt update
+  152  sudo apt install code
+  153  sudo apt update
+  154  sudo apt install code
+  155  ls
+  156  cd supermarket-main/
+  157  ls
+  158  cd bla/
+  159  ls
+  160  cd ..
+  161  ng new bla2
+  162  ls
+  163  cd bla1
+  164  cd bla2
+  165  ./node_modules/.bin/ng serve
+  166  cd supermarket-main/supermarkt-ui/
+  167  ls
+  168  ./node_modules/.bin/ng serve
+  169  sudo snap install --classic code # or code-insiders
+  170  code
+  171  ls
+  172  rm -rf supermarket-main 
+  173  ln
+  174  ln --help
+  175  ls
+  176  cd spring-tool-suite-4-4.10.0.RELEASE-e4.19.0-linux.gtk.x86_64/
+  177  ls
+  178  cd sts-4.10.0.RELEASE/
+  179  ls
+  180  ln SpringToolSuite4 ~/Desktop/SpringToolSuite4
+  181  vi ~/Desktop/readme
+  182  sudo apt-get install language-pack-gnome-pt language-pack-pt-base
+  183  cd workspace/supermarket-main/
+  184  ls
+  185  cd supermarkt-api/
+  186  mvn compile
+  187  cd workspace/supermarket-main/supermarkt-ui/
+  188  ls -la
+  189  ng start
+  190  ng-start
+  191  ng
+  192  ng serve
+  193  ls -la
+  194  cd /
+  195  ls -la
+  196  cd home/
+  197  ls
+  198  cd osboxes/
+  199  ls -la
+  200  cd workspace/
+  201  mkdir fabio
+  202  ng new supermarkt-ui
+  203  npm i @stomp/ng2-stompjs@8.0.0 & npm i error-stack-parser@2.0.6 & npm i primeng@11.4.0 & npm i primeicons@4.1.0 & npm i primeflex@2.0.0 & npm i @angular/cdk@11.2.11
+  204  npm i @stomp/ng2-stompjs@8.0.0 && npm i error-stack-parser@2.0.6 && npm i primeng@11.4.0 && npm i primeicons@4.1.0 && npm i primeflex@2.0.0 && npm i @angular/cdk@11.2.11
+  205  code .
+  206  ls -la
+  207  mv supermark-ui fabio/
+  208  mv supermark-ui/ fabio/
+  209  cd fabio
+  210  ls
+  211  cd ..
+  212  cd fabio/
+  213  cd supermarkt-ui/
+  214  code .
+  215  npm i @stomp/ng2-stompjs@8.0.0 && npm i error-stack-parser@2.0.6 && npm i primeng@11.4.0 && npm i primeicons@4.1.0 && npm i primeflex@2.0.0 && npm i @angular/cdk@11.2.11
+  216  sudo vi /etc/gdm3/custom.conf 
+  217  shutdown -r now
+  218  git status
+  219  git push
+  220  git push --set-upstream origin master
+  221  git push
+  222  history > historico_comandos.txt
