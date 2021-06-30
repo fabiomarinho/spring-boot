@@ -1,0 +1,32 @@
+<p-table [value]="supermercados" [paginator]="true" [rows]="5" >
+
+    <ng-template pTemplate="header" >
+        <tr>
+            <th class="col-btns"></th>
+            <th class="col-nome">Nome</th>
+            <th class="col-taxa">Taxa de Entrega</th>
+            <th class="col-tempomin">Tempo Mín. de Entrega</th>
+            <th class="col-tempomax">Tempo Máx. de Entrega</th>
+        </tr>
+    </ng-template>
+ 
+    <ng-template pTemplate="body" let-supermercado>
+        <tr>
+ 
+            <td class="col-content-btns">
+                <p-button class="btn-editar" icon="pi pi-pencil" pTooltip="Editar" [routerLink]="['/admin/supermercados', supermercado.id]" tooltipPosition="bottom"></p-button>
+                <p-button icon="pi pi-trash" pTooltip="Excluir" tooltipPosition="bottom" (onClick)="handleDelete(supermercado)"></p-button>
+            </td>
+ 
+            <td class="col-content-nome">{{supermercado.nome | titlecase}}</td>
+            <td class="col-content-taxa">{{supermercado.taxaDeEntregaEmReais | currency:'BRL':'symbol':'1.2-2'}}</td>
+            <td class="col-content-tempomin">{{supermercado.tempoDeEntregaMinimoEmMinutos}}</td>
+            <td class="col-content-tempomax">{{supermercado.tempoDeEntregaMaximoEmMinutos}}</td>
+        </tr>
+    </ng-template>
+ 
+    <ng-template pTemplate="emptymessage">
+        Nenhum registro encontrado.
+    </ng-template>
+ 
+</p-table>
